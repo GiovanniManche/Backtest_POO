@@ -5,7 +5,7 @@ from strategy_to_be_tested import Momentum
 import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-from example.strategy_examples import Momentum  # On effectue les tests sur Momentum pour l'exemple
+from example.example_strategies import Momentum  # On effectue les tests sur Momentum pour l'exemple
 
 def create_test_strategy_instance():
     """
